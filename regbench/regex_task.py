@@ -46,8 +46,8 @@ def process_csv(input_csv, output_csv):
 @task
 def regex_prediction():
     # Preprocess the dataset
-    input_csv = "/Users/js/regbench/data/regex_dataset.csv"
-    output_csv = "/Users/js/regbench/data/regex_dataset_processed.csv"
+    input_csv = "../data/regex_dataset.csv"
+    output_csv = "../data/regex_dataset_processed.csv"
 
     process_csv(input_csv, output_csv)
 
