@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "regbench"
+version = "0.1.0"
+description = ""
+authors = ["js-d <denain.js@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.38.0"
+inspect-ai = "^0.3.20"
+anthropic = "^0.32.0"
+google-generativeai = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
